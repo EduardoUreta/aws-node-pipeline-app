@@ -9,6 +9,7 @@ phases:
   build:
     commands:
       - echo "Aplicación construida correctamente"
+      - node app.js
 
 artifacts:
   files:
