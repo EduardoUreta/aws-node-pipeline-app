@@ -1,0 +1,13 @@
+{
+  "name": "m6-pipeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Sin pruebas aún\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
