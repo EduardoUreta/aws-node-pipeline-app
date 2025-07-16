@@ -4,12 +4,12 @@ phases:
     runtime-versions:
       nodejs: 14
     commands:
-      - echo "Instalando dependencias para pruebas/compilación"
+      - echo "Instalando dependencias..."
       - npm install
   build:
     commands:
-      - echo "Build completado"
+      - echo "Aplicación construida correctamente"
 
 artifacts:
   files:
-    - '**/*'
+  - '**/*'

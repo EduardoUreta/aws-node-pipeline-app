@@ -3,10 +3,10 @@ os: linux
 
 files:
   - source: /
-    destination: /home/ubuntu/app
+    destination: /home/ec2-user/app
 
 hooks:
   AfterInstall:
     - location: scripts/start.sh
       timeout: 60
-      runas: ubuntu
+      runas: ec2-user
